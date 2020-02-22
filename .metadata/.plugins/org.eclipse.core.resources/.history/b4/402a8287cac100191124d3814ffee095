@@ -1,0 +1,26 @@
+package ourFirstJavaProgram;
+
+public class Javaclass10part1 {
+
+	public static void main(String[] args) {
+		
+		int[] aray = {10,20,30,40,50};
+		System.out.println(aray.length);
+
+ 
+	
+		boolean[] atrue = {true};
+		boolean[] Atrue = {false};
+		System.out.println("");
+		
+		
+	
+		
+		
+		
+		
+		
+		
+	}
+
+}

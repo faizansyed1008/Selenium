@@ -1,0 +1,28 @@
+package ourFirstJavaProgram;
+
+public class Javaclass10part1 {
+
+	public static void main(String[] args) {
+		
+		int[] aray = {10,20,30,40,50};
+		System.out.println("this is first element"+aray[3]);
+
+
+		String[] cars = {"volvo","bmw","benz","acura","lexus",};
+		
+		System.out.println("this is the first element"+cars[2]);
+	
+	
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+	}
+
+}

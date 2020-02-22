@@ -1,0 +1,32 @@
+package interfaceClass;
+
+public class Developing implements Bankingclient {
+
+	public static void main(String[] args) {
+
+		Developing d=new Developing();
+		d.paycreditcard();
+	}
+
+	@Override
+	public void paycreditcard() {
+		
+		System.out.println("paycredit card implemented");
+
+	}
+
+	@Override
+	public void transferbalance() {
+		
+		System.out.println("transfer balance implemented");
+
+	}
+
+	@Override
+	public void checkingbalance() {
+		
+		System.out.println("checking balance implemented");
+
+	}
+
+}

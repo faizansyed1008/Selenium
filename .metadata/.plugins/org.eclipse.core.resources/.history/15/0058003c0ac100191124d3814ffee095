@@ -1,0 +1,10 @@
+package ourFirstJavaProgram;
+
+public class Javaclass9part1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

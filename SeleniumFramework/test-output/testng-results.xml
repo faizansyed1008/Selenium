@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-19T16:23:11 EDT" name="simple_suite" finished-at="2019-10-19T16:24:15 EDT" duration-ms="63724">
+    <groups>
+    </groups>
+    <test started-at="2019-10-19T16:23:11 EDT" name="calc" finished-at="2019-10-19T16:24:15 EDT" duration-ms="63724">
+      <class name="mySeleniumProjectTwo.MyFirstTstNgClass">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:11 EDT" name="beforeEachTest" finished-at="2019-10-19T16:23:31 EDT" duration-ms="19919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="initCalculator()[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="initCalculator" finished-at="2019-10-19T16:23:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initCalculator -->
+        <test-method signature="testAdd(int, int, int)[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testAdd" finished-at="2019-10-19T16:23:31 EDT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method signature="testDivison()[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testDivison" finished-at="2019-10-19T16:23:31 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivison -->
+        <test-method signature="testEqual()[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testEqual" finished-at="2019-10-19T16:23:31 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEqual -->
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T16:23:31 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T16:23:31 EDT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T16:23:31 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T16:23:31 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T16:23:31 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testSum(java.lang.String, java.lang.String)[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:23:31 EDT" name="testSum" finished-at="2019-10-19T16:24:15 EDT" duration-ms="43602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\w+@\w+\.\w{3}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[^ ]*$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:mySeleniumProjectTwo.MyFirstTstNgClass@4278a03f]" started-at="2019-10-19T16:24:15 EDT" name="afterEachTest" finished-at="2019-10-19T16:24:15 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- mySeleniumProjectTwo.MyFirstTstNgClass -->
+    </test> <!-- calc -->
+  </suite> <!-- simple_suite -->
+</testng-results>

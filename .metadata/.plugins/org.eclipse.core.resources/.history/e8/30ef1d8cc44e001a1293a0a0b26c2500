@@ -1,0 +1,15 @@
+package StringClass;
+
+public class Practice1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "payment $100 paid";
+		str.charAt(8);
+		System.out.println(str.charAt(8));
+		
+
+	}
+
+}

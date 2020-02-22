@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-simple_suite" class="navigator-link">
+              <span class="suite-name border-passed">simple_suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-simple_suite" class="navigator-link ">
+                    <span>C:\Users\faizs\eclipse-workspace\SeleniumProjectEndOfSeptember\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-simple_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-simple_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-simple_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-simple_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-simple_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-simple_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-simple_suite" class="hide-methods passed suite-simple_suite"> (hide)</a> <!-- hide-methods passed suite-simple_suite -->
+                      <a href="#" panel-name="suite-simple_suite" class="show-methods passed suite-simple_suite"> (show)</a> <!-- show-methods passed suite-simple_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-simple_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testAdd(30, 5, 35)">testAdd(30, 5, 35)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testDivison">testDivison</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testEqual">testEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testMethod(data 4)">testMethod(data 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testMethod(data one)">testMethod(data one)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testMethod(data two)">testMethod(data two)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testMethod(data 5)">testMethod(data 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testMethod(data three)">testMethod(data three)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-simple_suite" title="mySeleniumProjectTwo.MyFirstTstNgClass" class="method navigator-link" hash-for-method="testSum(\w+@\w+\.\w{3}, [^ ]*$)">testSum(\w+@\w+\.\w{3}, [^ ]*$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-simple_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-simple_suite" class="panel simple_suite">
+          <div class="suite-simple_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mySeleniumProjectTwo.MyFirstTstNgClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(30, 5, 35)">
+                  </a> <!-- testAdd(30, 5, 35) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(30, 5, 35)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivison">
+                  </a> <!-- testDivison -->
+                  <span class="method-name">testDivison</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEqual">
+                  </a> <!-- testEqual -->
+                  <span class="method-name">testEqual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(data 4)">
+                  </a> <!-- testMethod(data 4) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(data 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(data one)">
+                  </a> <!-- testMethod(data one) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(data one)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(data two)">
+                  </a> <!-- testMethod(data two) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(data two)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(data 5)">
+                  </a> <!-- testMethod(data 5) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(data 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(data three)">
+                  </a> <!-- testMethod(data three) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(data three)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSum(\w+@\w+\.\w{3}, [^ ]*$)">
+                  </a> <!-- testSum(\w+@\w+\.\w{3}, [^ ]*$) -->
+                  <span class="method-name">testSum</span>
+                  <span class="parameters">(\w+@\w+\.\w{3}, [^ ]*$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-simple_suite-class-passed -->
+        </div> <!-- panel simple_suite -->
+        <div panel-name="test-xml-simple_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\faizs\eclipse-workspace\SeleniumProjectEndOfSeptember\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;simple_suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;global_count&quot; value=&quot;10&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;calc&quot;&gt;
+    &lt;parameter name=&quot;division&quot; value=&quot;6&quot;/&gt;
+    &lt;parameter name=&quot;pattern1&quot; value=&quot;\w+@\w+\.\w{3}&quot;/&gt;
+    &lt;parameter name=&quot;pattern2&quot; value=&quot;[^ ]*$&quot;/&gt;
+    &lt;parameter name=&quot;difference&quot; value=&quot;25&quot;/&gt;
+    &lt;parameter name=&quot;number1&quot; value=&quot;30&quot;/&gt;
+    &lt;parameter name=&quot;sum&quot; value=&quot;35&quot;/&gt;
+    &lt;parameter name=&quot;number2&quot; value=&quot;5&quot;/&gt;
+    &lt;parameter name=&quot;multiplication&quot; value=&quot;150&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mySeleniumProjectTwo.MyFirstTstNgClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- calc --&gt;
+&lt;/suite&gt; &lt;!-- simple_suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-simple_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for simple_suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">calc (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-simple_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for simple_suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-simple_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for simple_suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_simple_suite');
+function tableData_simple_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSum')
+data.setCell(0, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(0, 3, 43602);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAdd')
+data.setCell(1, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(1, 3, 20);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMethod')
+data.setCell(2, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(2, 3, 9);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMethod')
+data.setCell(3, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMethod')
+data.setCell(4, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testEqual')
+data.setCell(5, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMethod')
+data.setCell(6, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMethod')
+data.setCell(7, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDivison')
+data.setCell(8, 2, 'mySeleniumProjectTwo.MyFirstTstNgClass')
+data.setCell(8, 3, 1);
+window.suiteTableData['simple_suite']= { tableData: data, tableDiv: 'times-div-simple_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-simple_suite">
+              </div> <!-- times-div-simple_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-simple_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for simple_suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-simple_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-simple_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mySeleniumProjectTwo.MyFirstTstNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeEachTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">initCalculator</span>
+                <span class="method-start">19950 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAdd(30, 5, 35)</span>
+                <span class="method-start">19976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivison</span>
+                <span class="method-start">20002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEqual</span>
+                <span class="method-start">20008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(data one)</span>
+                <span class="method-start">20033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(data two)</span>
+                <span class="method-start">20051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(data three)</span>
+                <span class="method-start">20067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(data 4)</span>
+                <span class="method-start">20079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(data 5)</span>
+                <span class="method-start">20087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSum(\w+@\w+\.\w{3}, [^ ]*$)</span>
+                <span class="method-start">20101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterEachTest</span>
+                <span class="method-start">63710 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

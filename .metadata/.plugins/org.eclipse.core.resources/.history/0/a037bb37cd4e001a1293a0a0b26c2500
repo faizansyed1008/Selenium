@@ -1,0 +1,25 @@
+package ArrayClass;
+
+public class Class1 {
+
+	public static void main(String[] args) {
+
+		// Sum of numbers in the array
+		// printing the index of the desired number
+		int sum = 0;
+		int c[] = { 2, 5, 8, 7, 4,6,3};
+		for (int i = 0; i < c.length; i++)// 5 times
+		{
+			// System.out.println(c[i]);
+			// sum=sum+c[i];
+			System.out.println(c[i]);
+			if (c[i] == 7) {
+			//	System.out.println(i);
+			//	break;
+			}
+
+		}
+		// System.out.println(sum);
+	}
+
+}

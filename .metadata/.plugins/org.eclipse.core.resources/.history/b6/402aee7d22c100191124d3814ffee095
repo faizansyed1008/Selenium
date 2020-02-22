@@ -1,0 +1,17 @@
+package ourFirstJavaProgram;
+
+public class Javaclass9part2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String make = "apple";
+		System.out.println(" 'make', is the \"Most\" expensive \'yet' most popular brand, ");
+		
+		
+		
+		
+		
+	}
+
+}

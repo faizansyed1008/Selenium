@@ -1,0 +1,24 @@
+package javaBasicRecap;
+
+public class JavaClass1 {
+
+	public static void main(String[] args) {
+		
+		String make;
+		String model;
+		
+		make = "Tesla";
+		model = "Model X";
+
+		System.out.println("My nexy year new car will be "+make+""+model);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

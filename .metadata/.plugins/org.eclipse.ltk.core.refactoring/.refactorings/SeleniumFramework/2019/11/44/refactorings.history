@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Drivers&apos; to &apos;MyNewMavenProject/src/main/java/MyNewMavenProject.MyNewMavenProject&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumProjectEndOfSeptember&apos;&#x0D;&#x0A;- Destination element: &apos;MyNewMavenProject/src/main/java/MyNewMavenProject.MyNewMavenProject&apos;&#x0D;&#x0A;- Original element: &apos;Drivers&apos;" description="Copy folder" destination="=MyNewMavenProject/src\/main\/java&lt;MyNewMavenProject.MyNewMavenProject" element1="Drivers" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1572714132806" units="0" version="1.0"/>
+</session>
